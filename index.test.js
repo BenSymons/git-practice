@@ -1,4 +1,4 @@
-const { add, subtract, multiply, divide, modulo } = require('.');
+const { add, subtract, multiply, divide, modulo, toPower } = require('.');
 
 describe('Unit tests', () => {
   test('add function adds two numbers', () => {
@@ -19,5 +19,9 @@ describe('Unit tests', () => {
 
   test('the modulo function returns the remainder of a division', () => {
     expect(modulo(5, 3)).toBe(2);
+  });
+
+  test('the toPower function raises a number to a given power', () => {
+    expect(toPower(3, 3)).toBe(27);
   });
 });
