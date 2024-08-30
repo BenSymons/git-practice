@@ -18,8 +18,4 @@ function modulo (a, b) {
   a % b;
 };
 
-function toPower (a, b) {
-  a ** b;
-};
-
-module.exports = { add, subtract, multiply, divide, modulo, toPower };
+module.exports = { add, subtract, multiply, divide, modulo };
