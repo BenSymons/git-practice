@@ -14,8 +14,4 @@ function divide (a, b) {
   a / b;
 };
 
-function modulo (a, b) {
-  a % b;
-};
-
-module.exports = { add, subtract, multiply, divide, modulo };
+module.exports = { add, subtract, multiply, divide };
