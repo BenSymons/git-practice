@@ -12,4 +12,8 @@ describe('Unit tests', () => {
   test('multiply function multiplies two numbers', () => {
     expect(multiply(7,6)).toBe(42);
   });
+
+  test('divide function divides two numbers', () => {
+    expect(divide(45, 9)).toBe(5);
+  });
 });
