@@ -1,16 +1,16 @@
-let add = (a, b) => {
+let add = function (a, b) {
     return a + b;
 }
 
-let subtract = (a, b) => {
+let subtract = function (a, b) {
     return a - b;
 }
 
-let multiply = (a, b) => {
+let multiply = function (a, b) {
     return a * b;
 }
 
-let divide = (a, b) => {
+let divide = function (a, b) {
     return a / b;
 }
 
