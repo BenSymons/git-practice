@@ -1,9 +1,17 @@
-const add = (a, b) => a + b;
+let add = function (a, b) {
+    return a + b;
+}
 
-const minus = (a, b) => a - b;
+let minus = function (a, b) {
+    return a - b;
+}
 
-const times = (a, b) => a * b;
+let times = function (a, b) {
+    return a * b;
+}
 
-const divide = (a, b) => a / b;
+let divide = function (a, b) {
+    return a / b;
+}
 
 module.exports = { add, subtract, multiply, divide };
